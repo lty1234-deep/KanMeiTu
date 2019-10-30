@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/container_margin"
+    tools:context=".avtivity.LoginActivity">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/et_username"
+        android:hint="@string/email_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password_hint"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_login"
+        android:text="登陆"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
