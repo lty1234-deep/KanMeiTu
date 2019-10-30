@@ -80,6 +80,8 @@ public class MainActivity extends BaseActivity {
 
                     }
 
+
+
                     @Override
                     public void onNext(ListResponse<Image> imageListResponse) {
                         //当数据请求完毕后，他会解析成对象，并返回给我们

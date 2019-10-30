@@ -41,7 +41,6 @@ public class SharedPreferencesUtil {
     public boolean isLogin() {
         return getBoolean(KEY_LOGIN,false);
     }
-
     /**
      * 更改登录状态
      * @param value
